@@ -1,0 +1,41 @@
+{
+    "output": null,
+    "generator": "site",
+    "title": null,
+    "description": null,
+    "isbn": null,
+    "extension": null,
+    "plugins": [
+        "prism",
+        "-highlight"
+    ],
+    "style":{
+        "website":"styles/website.css"
+    },
+    "pluginsConfig": {},
+    "variables": {},
+    "links": {
+        "sidebar": {
+            "硬派云交流社区": "https://forum.toughcloud.net"
+        },
+        "sharing": {
+            "google": null,
+            "facebook": null,
+            "twitter": null,
+            "weibo": null,
+            "all": null
+        }
+    },
+    "pdf": {
+        "toc": true,
+        "pageNumbers": false,
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 36,
+            "left": 36,
+            "top": 48,
+            "bottom": 48
+        }
+    }
+}
