@@ -11,4 +11,4 @@
 
 登陆成功进入系统管理首页，如下图，点击右上角退出链接即可安全退出。
 
-(img)
+![untitled25.png](http://qnstatic.toughcloud.net/FjtOzwihFZOF3Sz57LJyVJZZK_Ex)
