@@ -1,6 +1,7 @@
 - [软件介绍](pages/intro.md)
 - [安装配置指导](pages/install.md)
 - [系统管理](pages/system/index.md)
+  - [系统登录登出](pages/system/login.md)
   - [系统配置管理](pages/system/config.md)
   - [系统参数管理](pages/system/params.md)
   - [操作员管理](pages/system/opr.md)
