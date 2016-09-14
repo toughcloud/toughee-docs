@@ -7,12 +7,17 @@
     "extension": null,
     "plugins": [
         "prism",
-        "-highlight"
+        "-highlight",
+        "disqus"
     ],
     "style":{
         "website":"styles/website.css"
     },
-    "pluginsConfig": {},
+    "pluginsConfig": {
+         "disqus": {
+            "shortName": "tougheedocs"
+        }
+    },
     "variables": {},
     "links": {
         "sidebar": {
