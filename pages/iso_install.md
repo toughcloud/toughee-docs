@@ -51,11 +51,9 @@ ToughRADIUS_Enterprise_Edition.x86_64-3.0.0.qcow2.tar.gz
 
 ## 镜像安装流程
 
-- 插入光盘（或引导U盘），进入引导界面
+- 插入光盘(或引导U盘), 进入引导界面, 选择第二项 install，
 
 ![install](http://qnstatic.toughcloud.net/FoGxyRaceovlUaY1mGIt2Hw8LbTI)
-
-请选择第二项 install，
 
 ![install](http://qnstatic.toughcloud.net/Fhg5OZR9waR7LIFZx66j9ohkLrBx)
 
