@@ -24,7 +24,7 @@ ToughRADIUS_Enterprise_Edition.x86_64-3.0.0.iso
 
 内置 Mysql(Mariadb) 数据库
 
-ToughRADIUS_Enterprise_Edition_Mysql.x86_64-3.0.0.iso
+ToughRADIUS_Enterprise_Edition_Mariadb.x86_64-3.0.0.iso
 
 请使用光盘刻录工具刻录可引导光盘(非数据光盘)。
 
