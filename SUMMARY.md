@@ -1,5 +1,6 @@
 - [软件介绍](pages/intro.md)
 - [安装配置指导](pages/install.md)
+- [镜像安装配置指导](pages/iso_install.md)
 - [系统管理](pages/system/index.md)
   - [系统登录登出](pages/system/login.md)
   - [系统配置管理](pages/system/config.md)
