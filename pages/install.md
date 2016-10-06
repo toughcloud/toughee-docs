@@ -1,5 +1,7 @@
 # Linux 安装配置指导
 
+本文将指引您在通用的 linux 环境下完成硬派网络计费系统的安装配置。
+
 ## 安装环境
 
 centos6/7, ubuntu 14+,其他linux x64系统，推荐使用 centos7
