@@ -21,7 +21,8 @@
     "variables": {},
     "links": {
         "sidebar": {
-            "硬派科技": "https://www.toughstruct.com"
+            "硬派科技": "https://www.toughstruct.com",
+            "PDF文档下载": "http://qnstatic.toughcloud.net/toughee-doc-v4.pdf"
         },
         "sharing": {
             "google": null,
