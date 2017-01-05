@@ -19,6 +19,8 @@
   - [用户MAC解绑](pages/document/api_user_release.md)
   - [用户账号停机](pages/document/api_user_pause.md)
   - [用户账号复机](pages/document/api_user_resume.md)
+  - [用户在线查询](pages/document/api_user_online.md)
+  - [用户强制下线](pages/document/api_user_disconnect.md)
 
 
 
