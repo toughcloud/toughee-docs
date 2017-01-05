@@ -8,6 +8,7 @@
 - [系统参数管理](pages/document/params.md)
 - [接入设备管理](pages/document/nas.md)
 - [资费套餐管理](pages/document/product.md)
+- [新用户开户](pages/document/newuser.md)
 
 
 
