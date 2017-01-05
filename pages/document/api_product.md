@@ -7,6 +7,7 @@
 资费数据结构：
 
 > 资费类型 product_policy 0 预付费包月 1 预付费时长 2 买断包月 3 买断时长 4 预付费流量 5 买断流量 6 自由资费
+
 > 销售状态 product_status 0 正常 1 停用 资费停用后不允许再订购
 
 ![](http://qnstatic.toughcloud.net/toughee-product-db.png)
