@@ -6,6 +6,8 @@
 - [如何登录管理系统](pages/document/login.md)
 - [系统配置管理](pages/document/config.md)
 - [系统参数管理](pages/document/params.md)
+- [接入设备管理](pages/document/nas.md)
+- [资费套餐管理](pages/document/product.md)
 
 
 
