@@ -8,6 +8,17 @@
 - [接入设备管理](pages/document/nas.md)
 - [资费套餐管理](pages/document/product.md)
 - [新用户开户](pages/document/newuser.md)
+- [API接口文档](pages/document/api.md)
+  - [区域节点查询](pages/document/api_node.md)
+  - [接入设备查询](pages/document/api_nas.md)
+  - [资费套餐查询](pages/document/api_product.md)
+  - [用户账号开户](pages/document/api_newuser.md)
+  - [用户账号查询](pages/document/api_user_query.md)
+  - [用户账号修改](pages/document/api_user_update.md)
+  - [用户密码修改](pages/document/api_user_uppwd.md)
+  - [用户MAC解绑](pages/document/api_user_release.md)
+  - [用户账号停机](pages/document/api_user_pause.md)
+  - [用户账号复机](pages/document/api_user_resume.md)
 
 
 
