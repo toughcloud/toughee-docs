@@ -15,3 +15,7 @@
 - 网站地址：http://www.toughstruct.com
 - 技术社区：http://radius.org
 - QQ群组：532802359 247860313
+
+## 版本升级指南
+
+* [v4.0.0.4](/pages/upgrades/v4004.md)
