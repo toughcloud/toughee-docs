@@ -22,7 +22,8 @@
   - [用户账号复机](pages/document/api_user_resume.md)
   - [用户在线查询](pages/document/api_user_online.md)
   - [用户强制下线](pages/document/api_user_disconnect.md)
-
+- [版本升级指南]
+  - [v4.0.0.4](/pages/upgrades/v4004.md)
 
 
 
