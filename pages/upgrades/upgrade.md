@@ -20,14 +20,16 @@
 
     > 注意：如果新版本并没有数据库结构变化（参考版本说明），无需执行这一步 
 
-3. 在服务器 linux 终端，执行升级指令：
+3. 在服务器 linux 终端，执行升级指令
+
+请根据你当前使用的版本选择升级指令
 
     /opt/toughee/upgrade stable   #企业版正式版升级
 
     /opt/toughee/upgrade dev   #企业版开发版升级
 
     /opt/toughee/upgrade free_stable   #社区免费版正式版升级
-    
+
     /opt/toughee/upgrade free_dev   #社区免费版开发版升级
 
 4. 重启服务
@@ -54,6 +56,8 @@
     > 注意：如果新版本并没有数据库结构变化（参考版本说明），无需执行这一步
 
 2. 在服务器 linux 终端，执行升级指令：
+
+请根据你当前使用的版本选择升级指令
 
     /opt/toughee/upgrade stable   #企业版正式版升级 
 
