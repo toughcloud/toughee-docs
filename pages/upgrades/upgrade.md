@@ -10,26 +10,26 @@
 
 ### 升级流程
 
-- 1. 备份数据库：登录管理系统，进入系统管理菜单下的数据备份管理，执行备份。
+1. 备份数据库：登录管理系统，进入系统管理菜单下的数据备份管理，执行备份。
 
-- 2. 在服务器 linux 终端，初始化数据库。
+2. 在服务器 linux 终端，初始化数据库。
 
     cd /opt/toughee && make initdb
 
 > 注意：如果新版本并没有数据库结构变化（参考版本说明），无需执行这一步 
 
-- 3. 在服务器 linux 终端，执行升级指令：
+3. 在服务器 linux 终端，执行升级指令：
 
     /opt/toughee/upgrade stable   #企业版正式版升级
     /opt/toughee/upgrade dev   #企业版开发版升级
     /opt/toughee/upgrade free_stable   #社区免费版正式版升级
     /opt/toughee/upgrade free_dev   #社区免费版开发版升级
 
-- 重启服务
+4. 重启服务
 
     systemctl restart toughee
 
-- 恢复数据库：登录系统，进入系统管理菜单下的数据备份管理，执行恢复。
+5. 恢复数据库：登录系统，进入系统管理菜单下的数据备份管理，执行恢复。
 
 
 ## V4.x 版本的升级
@@ -40,27 +40,27 @@
 
 ### 升级流程
 
-- 1. 在服务器 linux 终端，执行数据库备份指令：
+1. 在服务器 linux 终端，执行数据库备份指令：
 
     cd /opt/toughee && make backup
 
 > 注意：如果新版本并没有数据库结构变化（参考版本说明），无需执行这一步
 
-- 2. 在服务器 linux 终端，执行升级指令：
+2. 在服务器 linux 终端，执行升级指令：
 
     /opt/toughee/upgrade stable   #企业版正式版升级
     /opt/toughee/upgrade dev   #企业版开发版升级
     /opt/toughee/upgrade free_stable   #社区免费版正式版升级
     /opt/toughee/upgrade free_dev   #社区免费版开发版升级
 
-- 3. 在服务器 linux 终端，执行数据库升级指令：
+3. 在服务器 linux 终端，执行数据库升级指令：
 
     cd /opt/toughee && make updb
 
 > 注意：如果新版本并没有数据库结构变化（参考版本说明），无需执行这一步
 
 
-- 重启服务
+4. 重启服务
 
     systemctl restart toughee
 
