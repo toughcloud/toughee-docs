@@ -2,6 +2,7 @@
 - [硬派计费简介](pages/intro.md)
 - [版本发布记录](pages/versions.md)
 - [安装配置指导](pages/install.md)
+- [系统升级指南](pages/upgrade.md)
 - [镜像安装配置指导](pages/iso_install.md)
 - [如何登录管理系统](pages/document/login.md)
 - [系统配置管理](pages/document/config.md)
@@ -22,8 +23,7 @@
   - [用户账号复机](pages/document/api_user_resume.md)
   - [用户在线查询](pages/document/api_user_online.md)
   - [用户强制下线](pages/document/api_user_disconnect.md)
-- [版本升级指南](pages/upgrades/upgrade.md)
-  - [v4.0.0.4](/pages/upgrades/v4004.md)
+
 
 
 
