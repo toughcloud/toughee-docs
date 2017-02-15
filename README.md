@@ -18,4 +18,4 @@
 
 ## 版本升级指南
 
-- [v4.0.0.4](/pages/upgrades/v4004.md)
+- [v4.0.0.4](/pages/upgrades/v4004)
