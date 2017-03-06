@@ -12,7 +12,7 @@
 - 微信开户支持短信验证
 - RouterOS 同步支持，支持同步地址池，pppoe配置，pppoe用户，hotspot配置，hotspot用户 (需独立购买授权)
 - 区域新增修改时可绑定设备列表
-- 升级说明：
+- [升级说明](http://radiusd.org/viewtopic.php?f=7&t=30)
 
 
 ## v4.0.0.3 - 2017-01-14
