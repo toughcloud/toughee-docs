@@ -33,8 +33,8 @@ CURL 请求示例：
                 "id": "1",
                 "node_name": "默认区域",
                 "node_desc": "默认区域",
-                "rule_id": "1"
-                "sync_ver": "1490236888333415",
+                "rule_id": "1",
+                "sync_ver": "1490236888333415"
             }
         ],
         "sign": "A5BC90D072172A4CC57A7D670A5E1D18"
