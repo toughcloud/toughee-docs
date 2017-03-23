@@ -10,7 +10,7 @@
 
 > 用户状态：0:"未激活",1:"正常", 2:"停机" , 3:"销户", 4:"到期"
 
-![](http://qnstatic.toughcloud.net/toughee_account_db.png)
+![](http://qnstatic.toughcloud.net/toughee-account-db.png)
 
 ## 接口地址
 
