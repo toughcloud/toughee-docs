@@ -4,7 +4,7 @@
 
 第三方系统向硬派计费系统发起区域查询请求，硬派计费返回区域信息列表。支持可选的区域ID参数。
 
-资费数据结构：
+区域数据结构：
 
 ![](http://qnstatic.toughcloud.net/toughee_node_db.png)
 
