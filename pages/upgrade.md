@@ -26,11 +26,8 @@
 
     /opt/toughee/upgrade stable   #企业版正式版升级
 
-    /opt/toughee/upgrade dev   #企业版开发版升级
-
     /opt/toughee/upgrade free_stable   #社区免费版正式版升级
 
-    /opt/toughee/upgrade free_dev   #社区免费版开发版升级
 
 4. 重启服务
 
@@ -61,11 +58,8 @@
 
     /opt/toughee/upgrade stable   #企业版正式版升级 
 
-    /opt/toughee/upgrade dev   #企业版开发版升级 
-
     /opt/toughee/upgrade free_stable   #社区免费版正式版升级
 
-    /opt/toughee/upgrade free_dev   #社区免费版开发版升级
 
 3. 在服务器 linux 终端，执行数据库升级指令：
 
