@@ -1,10 +1,10 @@
 {
-    "output": null,
+    "output": "",
     "generator": "site",
-    "title": null,
-    "description": null,
-    "isbn": null,
-    "extension": null,
+    "title": "toughee docs",
+    "description": "",
+    "isbn": "",
+    "extension": "",
     "plugins": [
         "prism",
         "-highlight",
@@ -23,13 +23,6 @@
         "sidebar": {
             "硬派科技": "https://www.toughstruct.com",
             "PDF文档下载": "http://qnstatic.toughcloud.net/toughee-doc-v4.pdf"
-        },
-        "sharing": {
-            "google": null,
-            "facebook": null,
-            "twitter": null,
-            "weibo": null,
-            "all": null
         }
     },
     "pdf": {
