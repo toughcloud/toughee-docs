@@ -21,6 +21,10 @@
                 
             
                 
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
                 <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
                 
             
@@ -527,7 +531,7 @@
 <ul>
 <li><p>python</p>
 <p>  def make_sign(api_secret, params=[]):</p>
-<pre><code>  &quot;&quot;&quot;
+<pre class="language-"><code>  &quot;&quot;&quot;
       &gt;&gt;&gt; make_sign(&quot;123456&quot;,[1,&apos;2&apos;,u&apos;&#x4E2D;&#x6587;&apos;])
       &apos;33C9065427EECA3490C5642C99165145&apos;
   &quot;&quot;&quot;
@@ -538,7 +542,7 @@
   mds = md5(strs.encode(&apos;utf-8&apos;)).hexdigest()
   return mds.upper()
 </code></pre><p>  def check_sign(api_secret, msg):</p>
-<pre><code>  &quot;&quot;&quot;
+<pre class="language-"><code>  &quot;&quot;&quot;
       &gt;&gt;&gt;  check_sign(&quot;123456&quot;,dict(code=1,s=&apos;2&apos;,msg=u&apos;&#x4E2D;&#x6587;&apos;,sign=&apos;33C9065427EECA3490C5642C99165145&apos;))
       True
   &quot;&quot;&quot;
@@ -597,7 +601,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"API接口文档","level":"1.15","depth":1,"next":{"title":"区域节点查询","level":"1.15.1","depth":2,"path":"pages/document/api_node.md","ref":"pages/document/api_node.md","articles":[]},"previous":{"title":"新用户开户","level":"1.14","depth":1,"path":"pages/document/newuser.md","ref":"pages/document/newuser.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","disqus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"shortName":"tougheedocs"},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","style":{"website":"styles/website.css"},"pdf":{"pageNumbers":false,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":48,"bottom":48},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"toughee docs","links":{"sidebar":{"硬派科技":"https://www.toughstruct.com","PDF文档下载":"http://qnstatic.toughcloud.net/toughee-doc-v4.pdf"}},"gitbook":"*","description":"","extension":""},"file":{"path":"pages/document/api.md","mtime":"2017-10-17T05:48:35.121Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-10-17T06:26:30.615Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"API接口文档","level":"1.15","depth":1,"next":{"title":"区域节点查询","level":"1.15.1","depth":2,"path":"pages/document/api_node.md","ref":"pages/document/api_node.md","articles":[]},"previous":{"title":"新用户开户","level":"1.14","depth":1,"path":"pages/document/newuser.md","ref":"pages/document/newuser.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","disqus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"tougheedocs"},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","style":{"website":"styles/website.css"},"pdf":{"pageNumbers":false,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":48,"bottom":48},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"toughee docs","links":{"sidebar":{"硬派科技":"https://www.toughstruct.com","PDF文档下载":"http://qnstatic.toughcloud.net/toughee-doc-v4.pdf"}},"gitbook":"*","description":"","extension":""},"file":{"path":"pages/document/api.md","mtime":"2017-10-17T05:48:35.121Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-10-17T06:30:15.716Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -605,6 +609,10 @@
         
     <script src="../../gitbook/gitbook.js"></script>
     <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
     
         
         <script src="../../gitbook/gitbook-plugin-disqus/plugin.js"></script>
