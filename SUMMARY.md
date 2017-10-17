@@ -1,6 +1,7 @@
 - [最终用户许可协议](pages/license.md)
 - [硬派计费简介](pages/intro.md)
 - [版本发布记录](pages/versions.md)
+- [演示&下载地址](pages/download.md)
 - [安装配置指导](pages/install.md)
 - [系统升级指南](pages/upgrade.md)
 - [镜像安装配置指导](pages/iso_install.md)
