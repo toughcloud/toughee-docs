@@ -16,6 +16,7 @@
   - [接入设备查询](pages/document/api_nas.md)
   - [资费套餐查询](pages/document/api_product.md)
   - [用户账号开户](pages/document/api_newuser.md)
+  - [用户同步](pages/document/api_usersync.md)
   - [用户账号查询](pages/document/api_user_query.md)
   - [用户账号修改](pages/document/api_user_update.md)
   - [用户密码修改](pages/document/api_user_uppwd.md)

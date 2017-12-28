@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>用户账号修改 · toughee docs</title>
+        <title>用户同步 · toughee docs</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -63,10 +63,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="api_user_uppwd.html" />
+    <link rel="next" href="api_user_query.html" />
     
     
-    <link rel="prev" href="api_user_query.html" />
+    <link rel="prev" href="api_newuser.html" />
     
 
     </head>
@@ -357,7 +357,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.15.5" data-path="api_usersync.html">
+        <li class="chapter active" data-level="1.15.5" data-path="api_usersync.html">
             
                 <a href="api_usersync.html">
             
@@ -383,7 +383,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.15.7" data-path="api_user_update.html">
+        <li class="chapter " data-level="1.15.7" data-path="api_user_update.html">
             
                 <a href="api_user_update.html">
             
@@ -509,7 +509,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >用户账号修改</a>
+        <a href="../.." >用户同步</a>
     </h1>
 </div>
 
@@ -524,31 +524,48 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x7528;&#x6237;&#x8BA1;&#x8D39;&#x7B56;&#x7565;&#x4FEE;&#x6539;">&#x7528;&#x6237;&#x8BA1;&#x8D39;&#x7B56;&#x7565;&#x4FEE;&#x6539;</h1>
+                                <h1 id="&#x7528;&#x6237;&#x5F00;&#x6237;">&#x7528;&#x6237;&#x5F00;&#x6237;</h1>
 <h2 id="&#x63A5;&#x53E3;&#x63CF;&#x8FF0;">&#x63A5;&#x53E3;&#x63CF;&#x8FF0;</h2>
-<p>&#x7B2C;&#x4E09;&#x65B9;&#x7CFB;&#x7EDF;&#x5411;&#x786C;&#x6D3E;&#x8BA1;&#x8D39;&#x7CFB;&#x7EDF;&#x53D1;&#x8D77;&#x7528;&#x6237;&#x8D26;&#x53F7;&#x4FEE;&#x6539;&#x8BF7;&#x6C42;&#xFF0C;&#x652F;&#x6301;&#x4FEE;&#x6539;&#x7528;&#x6237;&#x8BA1;&#x8D39;&#x7B56;&#x7565;&#xFF0C;&#x786C;&#x6D3E;&#x8BA1;&#x8D39;&#x7CFB;&#x7EDF;&#x8FD4;&#x56DE;&#x6210;&#x529F;&#x6216;&#x5931;&#x8D25;&#x54CD;&#x5E94;&#x3002;</p>
+<p>&#x8BE5;&#x63A5;&#x53E3;&#x662F;&#x4E00;&#x4E2A;&#x901A;&#x7528;&#x7528;&#x6237;&#x540C;&#x6B65;&#x63A5;&#x53E3;&#xFF0C;&#x7528;&#x4E8E;&#x7B2C;&#x4E09;&#x65B9;&#x7CFB;&#x7EDF;&#x66F4;&#x81EA;&#x7531;&#x7684;&#x63A7;&#x5236;&#x7528;&#x6237;&#xFF0C; &#x8BE5;&#x63A5;&#x53E3;&#x4E3B;&#x8981;&#x9488;&#x5BF9;&#x795E;&#x884C;&#x8005;&#x8BA1;&#x8D39;&#x4E13;&#x7248;&#x5DF2;&#x7ECF;VPN&#x4E13;&#x7248;&#xFF0C;</p>
+<p>&#x8C03;&#x7528;&#x8BE5;&#x63A5;&#x53E3;&#xFF0C;&#x5219;&#x8BA1;&#x8D39;&#x7CFB;&#x7EDF;&#x4E2D;&#x4E0D;&#x4F1A;&#x7BA1;&#x7406;&#x8D39;&#x7528;&#x4FE1;&#x606F;&#xFF0C;&#x53EA;&#x662F;&#x7BA1;&#x7406;&#x7528;&#x6237;&#x4FE1;&#x606F;&#x3002;</p>
 <h2 id="&#x63A5;&#x53E3;&#x5730;&#x5740;">&#x63A5;&#x53E3;&#x5730;&#x5740;</h2>
-<p><a href="http://&#x670D;&#x52A1;&#x5668;&#x5730;&#x5740;:&#x7AEF;&#x53E3;/api/v1/account/update" target="_blank">http://&#x670D;&#x52A1;&#x5668;&#x5730;&#x5740;:&#x7AEF;&#x53E3;/api/v1/account/update</a></p>
+<p><a href="http://&#x670D;&#x52A1;&#x5668;&#x5730;&#x5740;:&#x7AEF;&#x53E3;/api/v1/user/sync" target="_blank">http://&#x670D;&#x52A1;&#x5668;&#x5730;&#x5740;:&#x7AEF;&#x53E3;/api/v1/user/sync</a></p>
 <h2 id="&#x8BF7;&#x6C42;&#x53C2;&#x6570;">&#x8BF7;&#x6C42;&#x53C2;&#x6570;</h2>
 <ul>
-<li>account_number (string) &#x2013; &#x7528;&#x6237;&#x8D26;&#x53F7;</li>
-<li>ip_address (string - x.x.x.x) &#x2013; &#x7528;&#x6237;IP&#x5730;&#x5740;</li>
-<li>install_address (string) &#x2013; &#x7528;&#x6237;&#x5B89;&#x88C5;&#x5730;&#x5740;</li>
-<li>domain (string) &#x2013; &#x7528;&#x6237;&#x57DF;&#xFF0C;&#x5BF9;BRAS&#x7684;&#x7279;&#x5B9A;&#x6269;&#x5C55;</li>
-<li>user_concur_number (int) &#x2013; &#x7528;&#x6237;&#x5728;&#x7EBF;&#x6570;&#x9650;&#x5236;</li>
-<li>bind_mac (int - 0 &#x4E0D;&#x7ED1;&#x5B9A; 1 &#x7ED1;&#x5B9A;) &#x2013; &#x7528;&#x6237;&#x662F;&#x5426;&#x7ED1;&#x5B9A;mac</li>
-<li>bind_vlan (int 0 &#x4E0D;&#x7ED1;&#x5B9A; 1 &#x7ED1;&#x5B9A;) &#x2013; &#x7528;&#x6237;&#x662F;&#x5426;&#x7ED1;&#x5B9A;vlan</li>
-<li>account_desc (string) &#x2013; &#x7528;&#x6237;&#x4FEE;&#x6539;&#x63CF;&#x8FF0;</li>
+<li>realname (string) &#x2013; &#x7528;&#x6237;&#x59D3;&#x540D;</li>
+<li>idcard (string) &#x2013; &#x8EAB;&#x4EFD;&#x8BC1;</li>
+<li>address(string) &#x2013; &#x5730;&#x5740;</li>
+<li>username (string) &#x2013; &#x7528;&#x6237;&#x8D26;&#x53F7;</li>
+<li>password (string) &#x2013; &#x7528;&#x6237;&#x5BC6;&#x7801;</li>
+<li>product_code (string) &#x2013; &#x4EA7;&#x54C1;ID&#x7F16;&#x7801;</li>
+<li>status= (string) &#x2013; &#x7528;&#x6237;&#x72B6;&#x6001; enabled: &#x7528;&#x6237;&#x65B0;&#x5F00;&#x6237;&#x6216;&#x7EED;&#x8D39;&#x65F6;&#x8C03;&#x7528;&#xFF0C;disabled&#xFF1A;&#x7528;&#x6237;&#x9500;&#x6237;&#x65F6;&#x8C03;&#x7528;</li>
+<li>begin_time (String) - &#x751F;&#x6548;&#x65F6;&#x95F4; &#x683C;&#x5F0F;&#x4E3A; &quot;%Y-%m-%d %H:%M:%S&quot;(VPN&#x4E13;&#x7248;) &#x6216; &quot;%Y-%m-%d&quot;(&#x795E;&#x884C;&#x8005;&#x8BA1;&#x8D39;&#x4E13;&#x7248;)</li>
+<li>expire_time (String) -  &#x8FC7;&#x671F;&#x65F6;&#x95F4; &#x683C;&#x5F0F;&#x4E3A; &quot;%Y-%m-%d %H:%M:%S&quot;(VPN&#x4E13;&#x7248;) &#x6216; &quot;%Y-%m-%d&quot;(&#x795E;&#x884C;&#x8005;&#x8BA1;&#x8D39;&#x4E13;&#x7248;)</li>
 </ul>
-<p>CURL &#x8BF7;&#x6C42;&#x793A;&#x4F8B;&#xFF1A;</p>
-<pre class="language-"><code>curl &quot;http://127.0.0.1:1816/api/v1/account/update?sign=5256F72A7BFA2FFE08D6EADAE30CA513&amp;account_number=ua00000004&amp;user_concur_number=1&amp;bind_mac=0&amp;bind_vlan=0&quot;
+<h2 id="&#x6269;&#x5C55;&#x53C2;&#x6570;">&#x6269;&#x5C55;&#x53C2;&#x6570;</h2>
+<p>&#x6269;&#x5C55;&#x53C2;&#x6570;&#x4EE5; &#x201C;attr_&#x201D; &#x5F00;&#x59CB;&#xFF0C; &#x5F53;&#x524D;&#x652F;&#x6301;&#x7684;&#x53C2;&#x6570;</p>
+<ul>
+<li>attr_NODE_ID (string) &#x2013; &#x533A;&#x57DF;&#x8282;&#x70B9;ID</li>
+</ul>
+<h2 id="&#x8BF7;&#x6C42;&#x793A;&#x4F8B;&#xFF1A;">&#x8BF7;&#x6C42;&#x793A;&#x4F8B;&#xFF1A;</h2>
+<pre class="language-"><code>http://127.0.0.1:1816/api/v1/user/sync?sign=AA0C961396EE14A41A245727526E0CEF
+&amp;realname=&#x5F20;&#x4E09;
+&amp;username=zsan
+&amp;password=123456
+&amp;idcard=0000
+&amp;address=myaddress
+&amp;begin_time=2016-02-10
+&amp;expire_time=2017-02-10
+&amp;product_code=0E77AB90BD1B11E6849640F2E9955DBA
+&amp;status=enabled
+&amp;attr_NODE_ID=1
 </code></pre><h2 id="&#x63A5;&#x53E3;&#x54CD;&#x5E94;">&#x63A5;&#x53E3;&#x54CD;&#x5E94;</h2>
 <p>&#x54CD;&#x5E94;&#x793A;&#x4F8B;&#xFF1A;</p>
 <pre class="language-"><code>{
     &quot;msg&quot;: &quot;&#x5904;&#x7406;&#x6210;&#x529F;&quot;,
-    &quot;nonce&quot;: &quot;1490322979&quot;,
+    &quot;nonce&quot;: &quot;1490276941&quot;,
     &quot;code&quot;: 0,
-    &quot;sign&quot;: &quot;B7ED73B9AD0CFD2257E24B3FD035F0DE&quot;
+    &quot;sign&quot;: &quot;67C3F992DDBC08655700655236180AF4&quot;
 }
 </code></pre>
                                 
@@ -577,12 +594,12 @@
 
             
                 
-                <a href="api_user_query.html" class="navigation navigation-prev " aria-label="Previous page: 用户账号查询">
+                <a href="api_newuser.html" class="navigation navigation-prev " aria-label="Previous page: 用户账号开户">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="api_user_uppwd.html" class="navigation navigation-next " aria-label="Next page: 用户密码修改">
+                <a href="api_user_query.html" class="navigation navigation-next " aria-label="Next page: 用户账号查询">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -593,7 +610,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"用户账号修改","level":"1.15.7","depth":2,"next":{"title":"用户密码修改","level":"1.15.8","depth":2,"path":"pages/document/api_user_uppwd.md","ref":"pages/document/api_user_uppwd.md","articles":[]},"previous":{"title":"用户账号查询","level":"1.15.6","depth":2,"path":"pages/document/api_user_query.md","ref":"pages/document/api_user_query.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","disqus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"tougheedocs"},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","style":{"website":"styles/website.css"},"pdf":{"pageNumbers":false,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":48,"bottom":48},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"toughee docs","links":{"sidebar":{"硬派科技":"https://www.toughstruct.com","PDF文档下载":"http://qnstatic.toughcloud.net/toughee-doc-v4.pdf"}},"gitbook":"*","description":"","extension":""},"file":{"path":"pages/document/api_user_update.md","mtime":"2017-10-17T05:48:35.121Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-28T03:36:17.734Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"用户同步","level":"1.15.5","depth":2,"next":{"title":"用户账号查询","level":"1.15.6","depth":2,"path":"pages/document/api_user_query.md","ref":"pages/document/api_user_query.md","articles":[]},"previous":{"title":"用户账号开户","level":"1.15.4","depth":2,"path":"pages/document/api_newuser.md","ref":"pages/document/api_newuser.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","disqus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"tougheedocs"},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","style":{"website":"styles/website.css"},"pdf":{"pageNumbers":false,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":48,"bottom":48},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"toughee docs","links":{"sidebar":{"硬派科技":"https://www.toughstruct.com","PDF文档下载":"http://qnstatic.toughcloud.net/toughee-doc-v4.pdf"}},"gitbook":"*","description":"","extension":""},"file":{"path":"pages/document/api_usersync.md","mtime":"2017-12-28T03:34:59.897Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-28T03:36:17.734Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
