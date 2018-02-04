@@ -10,11 +10,11 @@
 
 社区版为免费版本，与企业版区别请参考 [硬派计费简介](intro.md)
 
-- [下载链接](http://download.toughstruct.net/toughee-community-stable-linux-x64.tar.xz)
+- [下载链接](http://download.toughstruct.net/toughee-community-latest-linux-x64.tar.xz)
 
 ## 企业版下载
 
-- [下载链接](http://download.toughstruct.net/toughee-stable-linux-x64.tar.xz)
+- [下载链接](http://download.toughstruct.net/toughee-latest-linux-x64.tar.xz)
 
 ## 神行者路由专版(OEM)下载
 
